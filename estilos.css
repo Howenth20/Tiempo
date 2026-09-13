@@ -28,7 +28,11 @@
             overflow: hidden;
         }
         
-        
+        img{
+            user-select: none;
+    -webkit-user-drag: none;
+    pointer-events: none;
+        }
 
         .foto {
         width: 100%;
