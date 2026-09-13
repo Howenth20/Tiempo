@@ -4,8 +4,8 @@ const idioma = "es";
 const init = () => {
   const dat = document.getElementById("dat");
   dat.innerHTML = `
-    <p class="text_dat">---------</p>
-    <p class="text_dat">-------------</p>
+    <p class="text_dat">Cargando°c</p>
+    <p class="text_dat">Ubicacion Actual</p>
   `;
   const box_text = document.getElementById("box_text");
   box_text.innerHTML = `
